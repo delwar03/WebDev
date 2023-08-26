@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>Student Data Collection Form</h2>
+
+    <!-- Form starts here -->
+    <form action="backend.php">
+
+        <br />
+        <label for="name"> Name:</label>
+        <div>
+            <input type="text" name="myName" id="name" required/>
+        </div>
+
+        <br />
+        <label for="roll"> Roll: </label>
+        <div>
+            <input type="number" name="myRoll" id="roll" required/>
+        </div>
+
+        <br />
+        <label for="email"> Email: </label>
+        <div>
+            <input type="email" name="myEmail" id="email" />
+        </div>
+
+        <br />
+        <label for="age"> Age: </label>
+        <div>
+            <input type="number" name="myBonus" id="age" />
+        </div>
+
+        <br />
+        <label for="dob"> Date of Birth: </label>
+        <div>
+            <input type="date" name="myDate" id="dob" />
+        </div>
+
+        <br />
+        <label for="gander"> Gander: </label>
+        <div>
+            <input type="radio" name="myGender" id="gander" /> Male
+            <input type="radio" name="myGender" id="gander" /> Female
+            <input type="radio" name="myGender" id="gander" /> Other
+        </div>
+
+        <br />
+        <label for="eligibility"> Are you Eligible?</label>
+        <div>
+            <input type="checkbox" name="myEligibility" id="eligibility" />
+        </div>
+
+        <br />
+        <label for="writeAboutYou">Write about yourself: </label>
+        <div>
+            <textarea name="myText" cols="90" rows="10" id="writeAboutYou"></textarea>
+        </div>
+
+        <br />
+        <label for="city">Select your hometown: </label>
+        <div>
+
+            <select name="myCity" id="city">
+                <option value="syl">Sylhet</option>
+                <option value="dhk">Dhaka</option>
+                <option value="rng">Rangpur</option>
+                <option value="raj">Rajshahi</option>
+                <option value="khl">Khulna</option>
+                <option value="bar">Barishal</option>
+                <option value="ctg">Chattagram</option>
+                <option value="com">Cumilla</option>
+                <option value="mym">Mymensingh</option>
+                <option value="none" selected>None</option>
+            </select>
+        </div>
+
+        <br />
+        <div>
+            <input type="submit" value="Submit Now" />
+        </div>
+
+        <br />
+        <div>
+            <input type="reset" value="Reset Now" />
+        </div>
+    </form>
+</body>
+
+</html>

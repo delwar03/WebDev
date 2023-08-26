@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        /* CSS position: static(default), relative, absolute, fixed, sticky */
+        .box {
+            display: inline-block;
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        }
+        .container {
+            border: 2px solid blue;
+            background-color: blanchedalmond;
+            height: 3444px;
+        }
+        #box3 {
+            /* relative --> relative to it's normal possition and leave a gap at it's normal position */
+            /* position: relative; */
+
+            /* absolue --> relative to it's parent(Body) */
+            /* position: absolute; */
+            /* top: 34px;
+            left: 134px; */
+
+            /* fixed --> when you scroll this box will remain stationary w.r.t it's normal position
+            position: fixed;
+            right: 4px;
+            bottom: 4px; */
+
+            /* sticky --> when you scroll this box will stick in top position */
+            position: sticky;
+            top: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">This is Chat Box</div>
+        <div class="box" id="box4">4</div>
+    </div>
+</body>
+</html>

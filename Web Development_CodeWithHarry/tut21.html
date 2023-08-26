@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allignment</title>
+
+    <!-- Importing fonts from Google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tilt%20Prism">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barriecito">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin Sans">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            background-color: rgb(255, 235, 145);
+            margin: 33px auto;
+        }
+
+        .item {
+            border: 2px solid gray;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(255, 246, 246);
+            font-family: "Josefin Sans", "Barriecito", "Tilt Prism", "Sofia", "Audiowide", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #fruit {
+            float: left;
+            width: 48%;
+        }
+
+        #computer {
+            float: left;
+            width: 48%;
+        }
+
+        #stationary {
+            /* float: left; */
+            clear: both;
+            width: 100%;
+        }
+
+        p, h3 {
+            /* text-align: right;
+            text-align: left;
+            text-align: center; */
+            text- align: justify;
+        }
+
+        h1 {
+            margin: 23px auto;
+            width: 327px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitsPara" class="Para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aperiam
+                enim, ut deleniti voluptatibus ipsa corrupti! Nostrum rem molestias aliquam! Sequi, nobis quasi fuga
+                dolorum odio natus a? Itaque dolor dignissimos totam eaque eligendi! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Excepturi animi laudantium in, temporibus corrupti odio quasi molestiae
+                illum veritatis natus placeat sed laborum sit voluptatem adipisci vitae ut impedit consequuntur rem
+                doloribus tempora a.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerPara" class="Para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aperiam
+                enim, ut deleniti voluptatibus ipsa corrupti! Nostrum rem molestias aliquam! Sequi, nobis quasi fuga
+                dolorum odio natus a? Itaque dolor dignissimos totam eaque eligendi! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Porro, id! Ratione quam ipsa tempore doloribus quod a error aperiam. Ipsa
+                porro sint eius dolorem quae, dignissimos cumque itaque perspiciatis suscipit tenetur sapiente autem
+                minima.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationaryPara" class="Para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aperiam
+                enim, ut deleniti voluptatibus ipsa corrupti! Nostrum rem molestias aliquam! Sequi, nobis quasi fuga
+                dolorum odio natus a? Itaque dolor dignissimos totam eaque eligendi!</p>
+        </div>
+        <div id="glasses" class="item">
+            <h3>Glasses</h3>
+            <p id="glassesPara" class="Para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aperiam
+                enim, ut deleniti voluptatibus ipsa corrupti! Nostrum rem molestias aliquam! Sequi, nobis quasi fuga
+                dolorum odio natus a? Itaque dolor dignissimos totam eaque eligendi!</p>
+        </div>
+    </div>
+</body>
+
+</html>
